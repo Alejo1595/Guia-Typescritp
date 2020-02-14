@@ -58,7 +58,7 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
   "include": [
-    "src/**/*.ts" // Le indicamos que tome todos los archivos .ts que estan en la carpeta src
+    "src/**/*.ts", "src/03-Funciones/01-Funciones-js.js" // Le indicamos que tome todos los archivos .ts que estan en la carpeta src
   ],
   "exclude": [
     "src/**/*-test.ts" // Le indicamos que NO tome los archivos -prueba.ts que estan en la carpeta src

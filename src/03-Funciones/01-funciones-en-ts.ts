@@ -14,8 +14,9 @@ let saldo = 0;
 
 function aumentarSaldo(valor: number) {
     let resultado = saldo + valor;
-    console.log('El valor es:', resultado);
+    // console.log('El valor es:', resultado);
+    return resultado;
 }
 
-
-aumentarSaldo(100)
+let valorRespuesta = aumentarSaldo(100);
+console.log(valorRespuesta);
